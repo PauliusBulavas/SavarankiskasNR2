@@ -6,8 +6,10 @@ namespace savarankiskasNr2
     {
         static void Main(string[] args)
         {
-        double spindulyskvadratu = Math.Pow(6731, 2);
-        double zemesPlotas = 4 * 3.14 * spindulyskvadratu;
+        double Spindulyskvadratu = Math.Pow(6731, 2);
+        double ZemesPlotas = 4 * 3.14 * Spindulyskvadratu;
+        Console.WriteLine($"Zemes plotas - {ZemesPlotas}");
         }
+
     }
 }
