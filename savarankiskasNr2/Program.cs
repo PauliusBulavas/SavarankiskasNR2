@@ -8,6 +8,7 @@ namespace grupine_uzduotis
     {
         static void Main(string[] args)
         {
+
             float r;
             float pi = 3.1415926535f;
 
@@ -17,6 +18,12 @@ namespace grupine_uzduotis
             Console.WriteLine(4 * pi * (r * r));
 
             Console.WriteLine(4f / 3f * pi * (r * r * r));
+
+        double Spindulyskvadratu = Math.Pow(6731, 2);
+        double ZemesPlotas = 4 * 3.14 * Spindulyskvadratu;
+        Console.WriteLine($"Zemes plotas - {ZemesPlotas}");
+
         }
+
     }
 }
